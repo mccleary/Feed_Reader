@@ -1,15 +1,21 @@
 # Testing With Jasmine
 
-This is a web-based application based on RSS Feeds. Here we are writing test suites using [Jasmine](https://jasmine.github.io/).
+This is a web-based application based on RSS Feeds. We are writing test suites using [Jasmine](https://jasmine.github.io/).
+
+## Reference
+
+- Documentation for [2.1 Jasmine documentation](https://jasmine.github.io/) can be viewed [here](https://jasmine.github.io/2.1/introduction.html).
+
+### To run this test:
+- Click "Clone in Desktop" / "Download ZIP"
+- Open the folder
+- Open `index.html` in the browser of your choice
+- There should be several test results at the bottom of the page that say 'specs, failures'
 
 
-# Project Overview
-
-In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
-
-
-## Why this Project?
-
-Testing is an important part of the development process and many organizations practice a standard of development known as "test-driven development". This is when developers write tests first, before they ever start developing their application. All the tests initially fail and then they start writing application code to make these tests pass.
-
-Whether you work in an organization that uses test-driven development or in an organization that uses tests to make sure future feature development doesn't break existing features, it's an important skill to have!
+## To run using Terminal and Node.js:
+- **Install** :  [node.js](https://nodejs.org/),  [npm](http://blog.npmjs.org/post/85484771375/how-to-install-npm), and [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- Clone this repo. Open your terminal and run `git clone https://github.com/mccleary/Feed_Reader.git`
+- Install [http-server](https://www.npmjs.com/package/http-server) by `npm install -g http-server`
+- Run `http-server` in terminal inside the root of the cloned repo.
+- Go to the URL **http://localhost:8080/** in browser.
